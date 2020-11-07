@@ -1,0 +1,77 @@
+.slider-img{
+	width: 100%;
+}
+
+.card {
+	min-height: 300px;
+	color: #111;
+	font-size: 16px;
+}
+
+.slider-container {
+	max-width: 1400px;
+	padding: 0 31px;
+	position: relative;
+	margin: 0 auto;
+}
+@media screen and (max-width:500px){
+	.slider-container{
+		padding: 0;
+	}
+}
+
+.slider-container__mt-40px{
+	margin-top: 102px;
+}
+@media screen and (max-width:768px){
+	.slider-container__mt-40px{
+		margin: 0;
+	}
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	background-color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+	display: none;
+}
+
+.swiper-button-next:focus,
+.swiper-button-next:active{
+	outline: none;
+}
+
+.swiper-button-prev:focus,
+.swiper-button-prev:active{
+	outline: none;
+}
+
+.swiper-button-prev {
+	background-image: url("back.svg");
+}
+
+.swiper-button-next {
+	background-image: url("right.svg");
+}
+
+.slider-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.slider-buttons {
+	display: flex;
+	align-items: center;
+}
